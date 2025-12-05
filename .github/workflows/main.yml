@@ -22,8 +22,8 @@ jobs:
 
       # 3️⃣ Build Docker Image
       - name: Build Docker Image
-        run: docker build -t abdallahelmadawy/cppapp:latest .
+        run: docker build -t abdallahelmaaday-2023040142/cppapp:latest .
 
       # 4️⃣ Push Docker Image
       - name: Push Docker Image
-        run: docker push abdallahelmadawy/cppapp:latest
+        run: docker push abdallahelmaaday-2023040142/cppapp:latest
